@@ -88,4 +88,9 @@
   #include "defaults/defaults_simulator.h"
 #endif
 
+#ifdef DEFAULTS_SUNRISE
+  // Grbl settings for Sunrise DLP 3D printer.
+  #include "defaults/defaults_Sunrise.h"
+#endif
+
 #endif
